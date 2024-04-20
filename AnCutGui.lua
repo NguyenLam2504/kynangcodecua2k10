@@ -1,4 +1,4 @@
---Free gui thank Alchemy hub . i love Alchemy So much
+-- I love Alchemy Hub for Gui free i love Owner Alchemy Hub So Much
 
 local a = Instance.new("UIStroke")
 local a = Instance.new("UICorner")
@@ -112,7 +112,7 @@ e.Draggable = true
 e.Active = true
 e.Selectable = true
 e.BackgroundTransparency = .1
-e.Image = "rbxassetid://16691911177"
+e.Image = "rbxassetid://16163686216"
 e.Visible = true
 local a = Instance.new("UICorner")
 a.Name = "MCNR"
@@ -128,7 +128,7 @@ e.MouseButton1Down:connect(
     end
 )
 do
-    if game:GetService("CoreGui"):FindFirstChild("LunarXHubGui") then
+    if game:GetService("CoreGui"):FindFirstChild("AlchemyHubUI") then
         game:GetService("CoreGui").AlchemyHubUI:Destroy()
         game:GetService("CoreGui").ScreenGui:Destroy()
     end
@@ -145,7 +145,7 @@ function a:Window(f, f, f)
     local f = f or Enum.KeyCode.RightControl
     local f = string.gsub(tostring(f), "Enum.KeyCode.", "")
     local f = Instance.new("ScreenGui")
-    f.Name = "LunarXHubGui"
+    f.Name = "AlchemyHubUI"
     f.Parent = game.CoreGui
     f.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     local i = Instance.new("Frame")
@@ -159,7 +159,7 @@ function a:Window(f, f, f)
     i.Size = UDim2.new(0, 0, 0, 0)
     i:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0.4, true)
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-    UiToggle_UiStroke1.Color = Color3.fromRGB(152, 68, 173)
+    UiToggle_UiStroke1.Color = Color3.fromRGB(0, 255, 145)
     UiToggle_UiStroke1.Thickness = 2
     UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
     UiToggle_UiStroke1.Parent = i
@@ -191,7 +191,7 @@ function a:Window(f, f, f)
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
-    j.Text = "Lunar X Hub"
+    j.Text = "Alchemy Hub"
     j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
@@ -202,7 +202,7 @@ function a:Window(f, f, f)
     j.ImageColor3 = Color3.fromRGB(255, 255, 255)
     j.Position = UDim2.new(0, 500, 0, 7)
     j.Size = UDim2.new(0, 30, 0, 30)
-    j.Image = "rbxassetid://16691911177"
+    j.Image = "rbxassetid://16163686216"
     j.MouseButton1Click:Connect(
         function()
             game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game)
@@ -470,7 +470,7 @@ function a:Window(f, f, f)
             h.ZIndex = 3
             h.Font = Enum.Font.GothamSemibold
             h.Text = "Notification"
-            h.TextColor3 = Color3.fromRGB(121, 118, 118)
+            h.TextColor3 = Color3.fromRGB(240, 10, 10)
             h.TextSize = 22.000
             m.Name = "Line"
             m.Parent = d
@@ -623,7 +623,7 @@ function a:Window(f, f, f)
             o.BackgroundTransparency = 1.000
             o.Position = UDim2.new(0, 5, 0, 8)
             o.Size = UDim2.new(0, 30, 0, 30)
-            o.Image = "rbxassetid://16691911177"
+            o.Image = "rbxassetid://16691911155"
             j.Parent = h
             j.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             j.BackgroundTransparency = 1.000
@@ -716,7 +716,7 @@ function a:Window(f, f, f)
             f.BackgroundTransparency = 1.000
             f.Position = UDim2.new(0, 5, 0, 3)
             f.Size = UDim2.new(0, 30, 0, 30)
-            f.Image = "rbxassetid://16691911177"
+            f.Image = "rbxassetid://16691911155"
             k.Name = "DropTitle"
             k.Parent = g
             k.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
@@ -931,7 +931,7 @@ function a:Window(f, f, f)
             l.BorderSizePixel = 0
             l.Position = UDim2.new(0, 7.5, 0, 7.5)
             l.Size = UDim2.new(0, 30, 0, 30)
-            l.Image = "rbxassetid://16691911177"
+            l.Image = "rbxassetid://16691911155"
             m.Parent = j
             m.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             m.BackgroundTransparency = 1.000
@@ -1329,7 +1329,7 @@ function a:Window(f, f, f)
             k.BorderSizePixel = 0
             k.Position = UDim2.new(0, 7.5, 0, 7.5)
             k.Size = UDim2.new(0, 30, 0, 30)
-            k.Image = "rbxassetid://16691911177"
+            k.Image = "rbxassetid://16062922985"
             l.Parent = i
             l.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             l.BackgroundTransparency = 1.000
