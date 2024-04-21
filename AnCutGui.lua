@@ -1,6 +1,3 @@
--- I love Alchemy Hub for Gui free i love Owner Alchemy Hub So Much
-
-
 local a = Instance.new("UIStroke")
 local a = Instance.new("UICorner")
 local a = game.Players.LocalPlayer
@@ -146,7 +143,7 @@ function a:Window(f, f, f)
     local f = f or Enum.KeyCode.RightControl
     local f = string.gsub(tostring(f), "Enum.KeyCode.", "")
     local f = Instance.new("ScreenGui")
-    f.Name = "LunarXHubGui"
+    f.Name = "LunarXHubUi"
     f.Parent = game.CoreGui
     f.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     local i = Instance.new("Frame")
@@ -160,7 +157,7 @@ function a:Window(f, f, f)
     i.Size = UDim2.new(0, 0, 0, 0)
     i:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0.4, true)
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-    UiToggle_UiStroke1.Color = Color3.fromRGB(128,128,128)
+    UiToggle_UiStroke1.Color = Color3.fromRGB(255, 255, 255)
     UiToggle_UiStroke1.Thickness = 2
     UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
     UiToggle_UiStroke1.Parent = i
@@ -177,7 +174,7 @@ function a:Window(f, f, f)
     local f = Instance.new("Frame")
     f.Name = "Top"
     f.Parent = i
-    f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    f.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
     f.Size = UDim2.new(0, 556, 0, 30)
     f.BackgroundTransparency = 1
     local j = Instance.new("UICorner")
@@ -187,13 +184,13 @@ function a:Window(f, f, f)
     local j = Instance.new("TextLabel")
     j.Name = "ttittles"
     j.Parent = f
-    j.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    j.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     j.BackgroundTransparency = 1
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
     j.Text = "Lunar X Hub"
-    j.TextSize = 16.000
+    j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
     local j = Instance.new("ImageButton")
@@ -594,7 +591,7 @@ function a:Window(f, f, f)
             b = b or false
             local e = b
             _G.Color = Color3.fromRGB(255, 255, 255)
-            _G.TrueColor = Color3.fromRGB(0,0,0)
+            _G.TrueColor = Color3.fromRGB(235, 83, 255)
             local g = Instance.new("UICorner")
             local g = Instance.new("UIPadding")
             local g = Instance.new("UIStroke")
@@ -1330,7 +1327,7 @@ function a:Window(f, f, f)
             k.BorderSizePixel = 0
             k.Position = UDim2.new(0, 7.5, 0, 7.5)
             k.Size = UDim2.new(0, 30, 0, 30)
-            k.Image = "rbxassetid://16062922985"
+            k.Image = "rbxassetid://16691911155"
             l.Parent = i
             l.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             l.BackgroundTransparency = 1.000
@@ -1635,11 +1632,11 @@ function a:Window(f, f, f)
             j.Size = UDim2.new(0, 379, 0, 29)
             j.Font = Enum.Font.SourceSans
             j.Text = ""
-            j.TextColor3 = Color3.fromRGB(0,0,0)
+            j.TextColor3 = Color3.fromRGB(0, 0, 0)
             j.TextSize = 14.000
             k.Name = "RealTextbox"
             k.Parent = d
-            k.BackgroundColor3 = Color3.fromRGB(192,192,192)
+            k.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             k.BackgroundTransparency = 0
             k.Position = UDim2.new(0, 275, 0, 4)
             k.Size = UDim2.new(0, 100, 0, 24)
