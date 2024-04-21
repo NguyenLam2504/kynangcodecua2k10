@@ -32,9 +32,6 @@
 
 
 
-
-
-
 local a = Instance.new("UIStroke")
 local a = Instance.new("UICorner")
 local a = game.Players.LocalPlayer
@@ -1669,11 +1666,11 @@ function a:Window(f, f, f)
             j.Size = UDim2.new(0, 379, 0, 29)
             j.Font = Enum.Font.SourceSans
             j.Text = ""
-            j.TextColor3 = Color3.fromRGB(0, 0, 0)
+            j.TextColor3 = Color3.fromRGB(0,0,0)
             j.TextSize = 14.000
             k.Name = "RealTextbox"
             k.Parent = d
-            k.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            k.BackgroundColor3 = Color3.fromRGB(192,192,192)
             k.BackgroundTransparency = 0
             k.Position = UDim2.new(0, 275, 0, 4)
             k.Size = UDim2.new(0, 100, 0, 24)
