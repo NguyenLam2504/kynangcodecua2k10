@@ -6,7 +6,7 @@
 
 spawn(function() 
   wait(2400) 
-  game.Players.LocalPlayer:Kick("Lunar X Hub") 
+  game.Players.LocalPlayer:Kick("Anh Yeu em | I Love u ") 
 end )
 repeat wait() until game: IsLoaded () 
 
@@ -572,7 +572,7 @@ local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
 
-    Title = 'Annie Community Free Scripts '..os.date("%d".." ".."%B".." ".."%Y"),
+    Title = 'Lunar X Community Free Scripts '..os.date("%d".." ".."%B".." ".."%Y"),
 
     Center = true, 
     AutoShow = true, 
