@@ -820,7 +820,7 @@ end)
 
 Kaitan:AddToggle('Condi', {
     Text = 'White Screen',
-    Default = true,
+    Default = false,
 })
 
 Toggles.Condi:OnChanged(function(value)
