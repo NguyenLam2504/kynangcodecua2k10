@@ -5468,8 +5468,8 @@ if Third_Sea then
     local Mastery = Tabs.Hop:AddSection("can join mirage / full moon server\n with code in my discord server")
     end
 --]]-- fluent
-InterfaceManager:SetFolder("MBM_HUB")
-SaveManager:SetFolder("MBM_HUB")
+InterfaceManager:SetFolder("LUNAR_FUMO")
+SaveManager:SetFolder("LUNAR_FUMO")
 SaveManager:SetLibrary(Fluent)
 InterfaceManager:SetLibrary(Fluent)
 SaveManager:IgnoreThemeSettings()
@@ -5480,7 +5480,7 @@ Window:SelectTab(1)
 SaveManager:LoadAutoloadConfig()
 --[[
     end
-    delfolder("MBM_HUB")
+    delfolder("LUNAR_FUMO")
 --]]
 
 if Third_Sea then
